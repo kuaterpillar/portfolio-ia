@@ -1,0 +1,21 @@
+# Core dependencies
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# WhatsApp integration
+twilio>=8.0.0
+
+# Database (sqlite3 is included in Python standard library)
+
+# Data handling
+pydantic>=2.0.0
+python-dateutil>=2.8.0
+
+# Web framework (for webhooks)
+flask>=3.0.0
+
+# Weather API
+requests>=2.31.0
+
+# Logging
+colorlog>=6.7.0

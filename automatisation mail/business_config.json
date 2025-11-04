@@ -1,0 +1,103 @@
+{
+  "company_info": {
+    "name": "Hotel Paradise",
+    "industry": "conciergerie",
+    "size": "pme",
+    "email_volume": "300"
+  },
+  "priority_rules": {
+    "urgent": {
+      "keywords": [
+        "urgent",
+        "urgence",
+        "emergency",
+        "panne",
+        "broken",
+        "ne fonctionne pas",
+        "réclamation",
+        "plainte",
+        "problème grave",
+        "incident",
+        "sécurité",
+        "fuite",
+        "coupure",
+        "plus d'eau",
+        "plus d'électricité"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "Immédiat"
+    },
+    "high": {
+      "keywords": [
+        "réservation",
+        "booking",
+        "check-in",
+        "check-out",
+        "arrivée",
+        "nouveau client",
+        "demande",
+        "rdv",
+        "rendez-vous",
+        "maintenance",
+        "réparation",
+        "intervention",
+        "livraison"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "1-4h"
+    },
+    "medium": {
+      "keywords": [
+        "confirmation",
+        "information",
+        "question",
+        "renseignement",
+        "facture",
+        "paiement",
+        "devis",
+        "planning",
+        "horaires"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "24h"
+    },
+    "low": {
+      "keywords": [
+        "newsletter",
+        "promo",
+        "promotion",
+        "marketing",
+        "publicité",
+        "offre",
+        "catalogue",
+        "brochure",
+        "spam"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "48h+"
+    }
+  },
+  "business_hours": {
+    "start": "07:00",
+    "end": "20:00",
+    "timezone": "Europe/Paris",
+    "weekend_priority": "low"
+  },
+  "special_rules": {
+    "vip_clients": [
+      "@syndic-principal.fr",
+      "@proprietaire-vip.com"
+    ],
+    "blocked_senders": [
+      "@spam.com",
+      "@marketing-agressif.fr"
+    ],
+    "auto_archive": []
+  },
+  "created_at": "2025-09-17T10:16:49.767561",
+  "version": "1.0"
+}

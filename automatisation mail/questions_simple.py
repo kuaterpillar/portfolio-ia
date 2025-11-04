@@ -1,0 +1,235 @@
+"""
+Questions du questionnaire - Version simple sans emojis
+"""
+
+def afficher_questionnaire():
+    print("="*80)
+    print("           QUESTIONNAIRE COMPLET - TRI D'EMAILS INTELLIGENT")
+    print("="*80)
+    print("Duree: 5-10 minutes | Personnalisation complete selon votre secteur")
+    print()
+
+    print("OBJECTIF:")
+    print("   Configurer le systeme pour qu'il trie automatiquement vos emails")
+    print("   selon les priorites REELLES de votre entreprise")
+    print()
+
+    # ETAPE 1
+    print("-" * 60)
+    print("ETAPE 1/4: INFORMATIONS ENTREPRISE (1-2 minutes)")
+    print("-" * 60)
+    print()
+
+    print("QUESTION 1: Quel est le nom de votre entreprise ?")
+    print("   Exemples: 'Hotel Paradise', 'Cabinet Dr Martin', 'TechShop Online'")
+    print("   Reponse attendue: [Votre nom d'entreprise]")
+    print()
+
+    print("QUESTION 2: Dans quel secteur d'activite travaillez-vous ?")
+    print("   1. Conciergerie/Services aux particuliers")
+    print("   2. E-commerce/Vente en ligne")
+    print("   3. Sante/Medical")
+    print("   4. Finance/Banque/Assurance")
+    print("   5. Immobilier")
+    print("   6. Tech/Informatique")
+    print("   7. Education/Formation")
+    print("   8. Autre")
+    print("   Reponse attendue: [Numero de 1 a 8]")
+    print()
+
+    print("QUESTION 3: Quelle est la taille de votre entreprise ?")
+    print("   1. TPE (1-9 employes)")
+    print("   2. PME (10-249 employes)")
+    print("   3. Grande entreprise (250+ employes)")
+    print("   Reponse attendue: [1, 2 ou 3]")
+    print()
+
+    print("QUESTION 4: Combien d'emails recevez-vous par jour ?")
+    print("   Exemples: 50, 200, 500, 1000...")
+    print("   Reponse attendue: [Nombre approximatif]")
+    print()
+
+    # ETAPE 2
+    print("-" * 60)
+    print("ETAPE 2/4: CONFIGURATION AUTOMATIQUE (2-3 minutes)")
+    print("-" * 60)
+    print()
+
+    print("Le systeme detecte automatiquement les mots-cles selon votre secteur:")
+    print()
+
+    print("SI CONCIERGERIE:")
+    print("   URGENT: panne, urgence, fuite, ascenseur, reclamation, incident...")
+    print("   HAUTE: reservation, nouveau client, maintenance, livraison...")
+    print("   MOYENNE: confirmation, question, facture, planning...")
+    print("   BASSE: newsletter, promo, marketing, spam...")
+    print()
+
+    print("SI E-COMMERCE:")
+    print("   URGENT: fraude, chargeback, reclamation grave, retour urgent...")
+    print("   HAUTE: nouvelle commande, paiement, livraison, stock...")
+    print("   MOYENNE: question produit, SAV, suivi commande...")
+    print("   BASSE: newsletter, catalogue, promotion...")
+    print()
+
+    print("SI SANTE:")
+    print("   URGENT: urgence medicale, patient critique, ambulance...")
+    print("   HAUTE: rdv, prescription, resultats, analyses...")
+    print("   MOYENNE: rappel, confirmation, planning...")
+    print("   BASSE: formation, congres, newsletter...")
+    print()
+
+    print("QUESTION 5: Voulez-vous ajouter des mots-cles specifiques ?")
+    print("   Exemple conciergerie: 'syndic', 'locataire', 'copropriete'")
+    print("   Exemple e-commerce: 'marketplace', 'amazon', 'leboncoin'")
+    print("   Exemple medical: 'ordonnance', 'mutuelle', 'urgence'")
+    print("   Reponse: [o/n] puis [mots-cles separes par virgules]")
+    print()
+
+    # ETAPE 3
+    print("-" * 60)
+    print("ETAPE 3/4: REGLES SPECIALES (1-2 minutes)")
+    print("-" * 60)
+    print()
+
+    print("QUESTION 6: Avez-vous des clients VIP toujours prioritaires ?")
+    print("   Exemples:")
+    print("      - @client-important.com (tout le domaine)")
+    print("      - pdg@entreprise.fr (email specifique)")
+    print("      - @syndic-principal.fr (pour conciergerie)")
+    print("      - @gros-client.com (pour e-commerce)")
+    print("   Reponse: [emails/domaines separes par virgules ou vide]")
+    print()
+
+    print("QUESTION 7: Y a-t-il des expediteurs a bloquer/ignorer ?")
+    print("   Exemples:")
+    print("      - @spam.com")
+    print("      - @concurrent.fr")
+    print("      - @marketing-agressif.com")
+    print("   Reponse: [emails/domaines separes par virgules ou vide]")
+    print()
+
+    # ETAPE 4
+    print("-" * 60)
+    print("ETAPE 4/4: HORAIRES DE TRAVAIL (1 minute)")
+    print("-" * 60)
+    print()
+
+    print("QUESTION 8: A quelle heure commence votre journee ?")
+    print("   Exemples: 08:00, 09:00, 07:30...")
+    print("   Reponse: [HH:MM]")
+    print()
+
+    print("QUESTION 9: A quelle heure finit votre journee ?")
+    print("   Exemples: 17:00, 18:00, 19:30...")
+    print("   Reponse: [HH:MM]")
+    print()
+
+    print("QUESTION 10: Comment traiter les emails hors horaires ?")
+    print("   1. Priorite normale (selon le contenu)")
+    print("   2. Priorite reduite (sauf vraies urgences)")
+    print("   Reponse: [1 ou 2]")
+    print()
+
+    # RESULTAT
+    print("-" * 60)
+    print("RESULTAT: CONFIGURATION PERSONNALISEE")
+    print("-" * 60)
+    print()
+
+    print("Le systeme genere automatiquement:")
+    print("   • Fichier de configuration business_config.json")
+    print("   • Regles de tri adaptees a votre metier")
+    print("   • Mots-cles specialises (20-50 par niveau)")
+    print("   • Clients VIP reconnus automatiquement")
+    print("   • Horaires de travail pris en compte")
+    print()
+
+    print("Test immediat avec emails d'exemple")
+    print("Precision attendue: 70-90% des l'installation")
+    print()
+
+    # EXEMPLES CONCRETS
+    print("-" * 60)
+    print("EXEMPLES CONCRETS DE CLASSIFICATION")
+    print("-" * 60)
+    print()
+
+    print("Email: 'URGENT - Panne ascenseur etage 5'")
+    print("   Conciergerie -> URGENT")
+    print("   E-commerce -> MOYENNE")
+    print("   Medical -> MOYENNE")
+    print()
+
+    print("Email: 'Transaction suspecte detectee'")
+    print("   Conciergerie -> MOYENNE")
+    print("   E-commerce -> URGENT")
+    print("   Finance -> URGENT")
+    print()
+
+    print("Email: 'Patient en detresse respiratoire'")
+    print("   Conciergerie -> MOYENNE")
+    print("   E-commerce -> MOYENNE")
+    print("   Medical -> URGENT")
+    print()
+
+    print("Email: 'Newsletter - Offres du mois'")
+    print("   Tous secteurs -> BASSE")
+    print()
+
+def exemples_reponses():
+    print("=" * 60)
+    print("EXEMPLES DE REPONSES PAR SECTEUR")
+    print("=" * 60)
+
+    print("\nEXEMPLE 1: CONCIERGERIE HOTEL 4*")
+    print("-" * 40)
+    print("   Q1 - Nom: Hotel Paradise")
+    print("   Q2 - Secteur: 1 (Conciergerie)")
+    print("   Q3 - Taille: 2 (PME)")
+    print("   Q4 - Volume: 300")
+    print("   Q5 - Mots personnalises: syndic, locataire, degat, copropriete")
+    print("   Q6 - VIP: @syndic-principal.fr, @proprietaire-vip.com")
+    print("   Q7 - Bloques: @spam.com, @concurrent-hotel.fr")
+    print("   Q8 - Debut: 07:00")
+    print("   Q9 - Fin: 20:00")
+    print("   Q10 - Hors horaires: 2 (priorite reduite)")
+
+    print("\nEXEMPLE 2: BOUTIQUE E-COMMERCE")
+    print("-" * 40)
+    print("   Q1 - Nom: TechShop Online")
+    print("   Q2 - Secteur: 2 (E-commerce)")
+    print("   Q3 - Taille: 2 (PME)")
+    print("   Q4 - Volume: 800")
+    print("   Q5 - Mots personnalises: marketplace, amazon, leboncoin, rupture")
+    print("   Q6 - VIP: @entreprise-corporate.fr, @gros-client.com")
+    print("   Q7 - Bloques: @concurrent.com, @phishing.org")
+    print("   Q8 - Debut: 08:00")
+    print("   Q9 - Fin: 19:00")
+    print("   Q10 - Hors horaires: 1 (priorite normale)")
+
+    print("\nEXEMPLE 3: CABINET MEDICAL")
+    print("-" * 40)
+    print("   Q1 - Nom: Cabinet Dr Martin")
+    print("   Q2 - Secteur: 3 (Sante)")
+    print("   Q3 - Taille: 1 (TPE)")
+    print("   Q4 - Volume: 80")
+    print("   Q5 - Mots personnalises: ordonnance, mutuelle, urgence, ambulance")
+    print("   Q6 - VIP: @hopital-partenaire.fr, @medecin-referent.fr")
+    print("   Q7 - Bloques: @pharma-marketing.com, @formation-spam.org")
+    print("   Q8 - Debut: 08:30")
+    print("   Q9 - Fin: 18:30")
+    print("   Q10 - Hors horaires: 2 (priorite reduite)")
+
+    print("\n" + "="*60)
+    print("COMMENT UTILISER CES EXEMPLES")
+    print("="*60)
+    print("1. Choisissez l'exemple le plus proche de votre activite")
+    print("2. Adaptez les reponses a votre situation")
+    print("3. Lancez: python questionnaire_interactif.py")
+    print("4. Copiez-collez les reponses adaptees")
+    print("5. Testez avec vos emails reels")
+
+if __name__ == "__main__":
+    afficher_questionnaire()
+    exemples_reponses()

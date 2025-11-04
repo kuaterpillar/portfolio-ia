@@ -1,0 +1,85 @@
+{
+  "company_info": {
+    "name": "TechStore Online",
+    "industry": "ecommerce",
+    "size": "pme",
+    "email_volume": "800"
+  },
+  "priority_rules": {
+    "urgent": {
+      "keywords": [
+        "commande annulée",
+        "problème paiement",
+        "fraude",
+        "réclamation",
+        "retour urgent",
+        "livraison manquée",
+        "produit défectueux",
+        "remboursement",
+        "chargeback"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "Immédiat"
+    },
+    "high": {
+      "keywords": [
+        "nouvelle commande",
+        "paiement",
+        "livraison",
+        "stock",
+        "client vip",
+        "partenaire",
+        "fournisseur",
+        "urgent"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "1-4h"
+    },
+    "medium": {
+      "keywords": [
+        "question produit",
+        "disponibilité",
+        "délai",
+        "suivi commande",
+        "facture",
+        "garantie",
+        "sav"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "24h"
+    },
+    "low": {
+      "keywords": [
+        "newsletter",
+        "catalogue",
+        "promotion",
+        "enquête satisfaction",
+        "marketing",
+        "pub"
+      ],
+      "senders": [],
+      "subjects": [],
+      "response_time": "48h+"
+    }
+  },
+  "business_hours": {
+    "start": "08:00",
+    "end": "19:00",
+    "timezone": "Europe/Paris",
+    "weekend_priority": "low"
+  },
+  "special_rules": {
+    "vip_clients": [
+      "@entreprise-corporate.fr",
+      "@gros-client.com"
+    ],
+    "blocked_senders": [
+      "@concurrent.com",
+      "@phishing.org"
+    ],
+    "auto_archive": []
+  }
+}

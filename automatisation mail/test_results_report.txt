@@ -1,0 +1,37 @@
+
+RAPPORT DE TEST - SYSTÈME DE TRI D'EMAILS ADAPTATIF
+=====================================================
+
+Date du test: 2025-09-17 09:49:22
+
+PROFILS TESTÉS:
+
+CONCIERGERIE:
+  - BASSE: 1 emails
+  - HAUTE: 1 emails
+  - MOYENNE: 1 emails
+  - URGENT: 2 emails
+
+ECOMMERCE:
+  - HAUTE: 1 emails
+  - MOYENNE: 2 emails
+  - URGENT: 2 emails
+
+HEALTHCARE:
+  - BASSE: 1 emails
+  - HAUTE: 4 emails
+
+FINANCE:
+  - MOYENNE: 3 emails
+  - URGENT: 2 emails
+
+
+RECOMMANDATIONS:
+- Le système adapte correctement les règles selon le secteur
+- Les mots-clés spécialisés améliorent la précision
+- Configuration recommandée: Profil + personnalisation
+
+PROCHAINES ÉTAPES:
+1. Déployer avec le profil correspondant au secteur
+2. Affiner avec le questionnaire personnalisé
+3. Ajuster selon les retours utilisateurs

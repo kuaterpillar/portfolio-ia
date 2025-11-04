@@ -1,0 +1,9 @@
+imaplib
+email
+openai
+python-dotenv
+tkinter
+sqlite3
+re
+datetime
+threading
